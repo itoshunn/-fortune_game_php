@@ -1,0 +1,3 @@
+bin\cake bake migration CreateUsers name:string[100] age:integer sex:integer[1] avatar_id:integer[10] created modified
+bin\cake bake migration CreateAvatars name:string[100] img_file:string[255] created modified
+bin\cake bake migration CreateGoals title:string[100] limit_date:date score:integer[3] user_id:integer[10] created modified
